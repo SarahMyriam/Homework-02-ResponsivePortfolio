@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#name{
+    width: 200px;
+    padding: 5px;
+    border-radius: 5px;
+}
+#email{
+width: 200px;
+padding: 5px;
+border-radius: 5px;
+}
+#submit{
+    width: auto;
+    padding: 5px;
+    font-size: medium;
+    border-radius: 5px;
+    color: #ebc7eb;
+}
