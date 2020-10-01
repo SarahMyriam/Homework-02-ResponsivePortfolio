@@ -182,7 +182,7 @@ li{
   .profile-img{
     flex: 1;
     /*separation btwn img and text*/
-    margin-right:5rem;
+    margin-right:4rem;
   }
 
   /*social-media icons*/
@@ -216,7 +216,7 @@ li{
   
   /*My skills*/
   .my-skills{
-      margin-top: 10rem;
+      margin-top: 5rem;
       display:grid;
       grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
       grid-gap: 2,5rem;
@@ -323,10 +323,16 @@ li{
     margin-bottom: 0;
 }
 .portfolio-img{
+    width: 50rem;
     flex: 1;
 }
 .portfolio-description{
     flex: 1;
+}
+.portfolio-description h4{
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin:1rem 0;
 }
 .portfolio-description h6{
     font-size: 1.5rem;
@@ -334,9 +340,94 @@ li{
     text-transform: uppercase;
     opacity: .3;
 }
+.cta{
+    display: inline-block;
+    margin-top: .5rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color:#f9d2d7;
+}
+.cta:hover{
+    color: #ffcce6;
+}
+
 .portfolio-img{
     width: 50rem;
     flex: 1;
+}
+/**/
+.timeline ul{
+    border-left: 4px solid #f6bcc2;
+    border-radius: .8rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    position: relative;
+    padding: 5rem;
+    list-style: none;
+    text-align: left;
+    width: 70%;
+}
+.timeline h4{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    opacity: .3;
+}
+.timeline.date{
+    border-bottom: 1rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+
+/*Contact*/
+.contact{
+    background-color:#efefef;
+}
+form{
+    width: 70%;
+    margin: 0 auto;
+}
+form label{
+    font-size: 1.5rem
+}
+input{
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 5px;
+    border: none;
+    outline-color: #ffcce6;
+}
+select{
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 5px;
+    border: none;
+    outline-color: #ffcce6;
+}
+textarea{
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 5px;
+    border: none;
+    outline-color: #ffcce6;
+}
+.submit{
+    width: initial;
+    background-color:#fbe2e5;
+    color: rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    border-radius: .8rem;
+    cursor: pointer;
+    transition: background-color 650ms;
+}
+/*footer styling*/
+.copywright{
+    width: 100%;
+    text-align: center;
+    background-color:lightgray;
+    padding: 2rem 0;
+    position: relative;
 }
 
   
