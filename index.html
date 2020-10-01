@@ -3,94 +3,258 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Portfolio</title>
+    <title>Document</title>
+    <!--googlefont-->
+    <link href="https://fonts.googleapis.com/css2?family=Mada&family=Montserrat:wght@100&family=Petit+Formal+Script&family=Roboto:wght@100&display=swap" rel="stylesheet">
 
-    <!--bootstrap css-->
+    <!--Bootstrapcdn css-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 
-    <!--css-->
-    <link rel="stylesheet" href="./Assets/css/style.css">
-</head>
+    <!--fontawesome-->
+    <script src="https://kit.fontawesome.com/5a0e05e6cd.js" crossorigin="anonymous"></script>
 
-<body>
-    
-    <header class="text-center">
-        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-            <a class="navbar-brand" href="#">Sarah Myriam Bamba</a>
-
-            <!--toggle-->
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-</button>
-
-            <!--navigation-->
-            <div class="collapse navbar-collapse" id="collapseNavbar">
-                <ul class="navbar-nav">
-                    <li>
-                        <a class="nav-link" href="./index.html">Home</a>
-                    </li>
-
-                    <li>
-                        <a class="nav-link" href="./portfolio.html">Portfolio</a>
-                    </li>
-
-                    <li>
-                        <a class="nav-link" href="./contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-
-    
-        <!--intro-->
-        <section>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-    
-                        <!--card element-->
-                        <div class="card mb-3" style="max-width: 500px;">
-                            <img src="https://scontent-lga3-1.cdninstagram.com/v/t51.2885-15/e35/117381821_302454684169330_136422528069298208_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_cat=110&_nc_ohc=DEqho-5Tr5cAX-vF0bJ&oh=d30bdaf0d31eda0ba3c111fda19b93d3&oe=5F5EBE7D" class="card-img-top" alt="...">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-    <!--about me section-->
-    <section class="aboout me" id="about">
-        <h2 class="section__title section __title--about">About Me</h2>
-        <p class="section__subtitle section__subtitle--about"></p>
-        <div class="about-me__body">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-    </section>
-
-    <!--sticky footer-->
-<footer class="text-center">
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-        <div class="container">
-            <div class="row">
-                <div class="footer-col col-md-4">
-                    <div class="col-md-12">
-                        Travels created by <a href="..." target="_blank">Sarah Myriam Bamba</a>
-                        <br>
-                        Copyright &copy; mytravels 2019
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-    </nav>
-</footer>
-
-    <!--javascript-->
-    
+    <!--Bootstrapcdn js, jquery-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+<!--page-->
+<body>
+    <!--==================header area==================-->
+    <header class="header-area">
+        <nav class="nav">
+            <!--==================nav-menu- buttons==================-->
+            <ul class="nav-list">
+                <li>
+                    <a href="index.html"class="nav-link">
+                    <button type="button" class="btn btn-outline">Home</button>
+                            </a>
+                </li>
+                <li>
+                    <a href="#about" class="nav-link">
+                        <button type="button" class="btn btn-outline">About</button>
+                    </a>
+                </li>
+                <li>
+                    <a href="#skills"class="nav-link">
+                        <button type="button" class="btn btn-outline">Skills</button>
+                    </a>
+                </li>
+                <li>
+                    <a href="#projects"class="nav-link">
+                        <button type="button" class="btn btn-outline">Projects</button>
+                    </a>
+                </li>
+                <li>
+                    <a href="#blog" class="nav-link">
+                        <button type="button" class="btn btn-outline">Blog</button>
+                        </a>
+                </li>
+                <li>
+                    <a href="#contact" class="nav-link">
+                        <button type="button" class="btn btn-outline">Contact</button>
+                    </a>
+                </li>
+            </ul>
+        </nav>    
+    </header>
+
+    <!--=============About section==================-->
+    <div class="landing-text-container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 ">
+                <h1 class="name">Sarah Myriam Bamba</h1>
+                <h4 class="name-title">Full Stack Web Developer Student</h4>
+            </div>
+        </div>
+    </div>
+    <section class="about">
+        <div class="about-container">
+           <div class="profile-img">
+              <img class="img"src="./images/sarah.jpeg" alt="profile">
+           </div>
+           <div class="about-infos">
+                <div class="about-heading">
+                  <h2>About</h2>
+                  <h6>Hello World,</h6>
+                  <h6>I am <strong>Sarah Myriam</strong></h6>
+                </div>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor explicabo totam iste impedit magni itaque consequatur nesciunt, eligendi perferendis voluptas.
+                    </p>
+                    <div class="social-media-container">
+                        <!--social-media links-->
+                        <div class="social-media">
+                            <ul class="nav-list">
+                                <li>
+                                    <a href="https://www.linkedin.com/in/sarahmyriambamba/"class="icon-link"><i class="fa fa-linkedin fa-2x"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/myriam__sarah/"class="icon-link"><i class="fa fa-instagram fa-2x"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/SarahMyriam"class="icon-link"><i class="fa fa-github fa-2x"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/Myriam__sarah"class="icon-link"><i class="fa fa-twitter fa-2x"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://codepen.io/MyriamSarah"class="icon-link"><i class="fa fa-codepen fa-2x"></i></a>
+                                </li>
+                            </ul>
+                
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--==================skills(may change this)==================-->
+    <section class="skills">
+        <div class="skills-container">
+            <div class="section-heading">
+                <h2>skills</h2>
+                <h6>what I am good at</h6>
+            </div> 
+            <div class="my-skills">
+                <div class="container-skillbar">
+                    <!--html5-->
+                    <div class="skillbar clearfix " data-percent="70%">
+                        <div class="skillbar-title" style="background: #ffa64d;"><span>HTML5</span></div>
+                        <div class="skillbar-bar" style="background: #ffa64d;"></div>
+                        <div class="skill-bar-percent">70%</div>
+                    </div>
+                    <!--Css3-->
+                    <div class="skillbar clearfix " data-percent="65%">
+                        <div class="skillbar-title" style="background: #06A2CB;"><span>CSS3</span></div>
+                        <div class="skillbar-bar" style="background: #06A2CB;"></div>
+                        <div class="skill-bar-percent">65%</div>
+                    </div> 
+                    <!--JavaScript-->
+                    <div class="skillbar clearfix " data-percent="15%">
+                        <div class="skillbar-title"    style="background:#ffe066;">
+                            <span>JavaScript</span></div>
+                        <div class="skillbar-bar" style="background: #ffe066;"></div>
+                        <div class="skill-bar-percent">15%</div>
+                    </div> 
+                    <!--jQuery-->
+                    <div class="skillbar clearfix " data-percent="10%">
+                        <div class="skillbar-title" style="background: #0066cc;"><span>jQuery</span></div>
+                        <div class="skillbar-bar" style="background: #0066cc;"></div>
+                        <div class="skill-bar-percent">10%</div>
+                    </div>
+                    <!--Node-->
+                    <div class="skillbar clearfix " data-percent="1%">
+                        <div class="skillbar-title" style="background:#009900;"><span>Node</span></div>
+                        <div class="skillbar-bar" style="background: #009900;">
+                        </div>
+                        <div class="skill-bar-percent">1%
+                        </div>
+                    </div> 
+                </div>
+            </div> 
+        </div>
+    </section>
+    
+
+   <!--==================project==================-->
+    <section class="portfolio">
+        <div class="container">
+            <div class="section-heading">
+                <h2>Portfolio</h2>
+                <h6>My work</h6>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-description has-margin-right">
+                    <h6>Web Development</h6>
+                    <h4>Weather Dashboard</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, vel?</p>
+                    <a href="#">View Details</a>
+                </div>
+                <div class="portfolio-img ">
+                    <img src="./images/sarahmb.jpeg" alt="sarah">
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-img has-margin-right">
+                    <img src="./images/eiffel.jpeg" alt="sarah">
+                </div>
+                <div class="portfolio-description has-margin-right">
+                    <h6>Web Development</h6>
+                    <h4>Password Generator</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, vel?</p>
+                    <a href="#">View Details</a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-img has-margin-right">
+                    <img src="./images/piazza.jpeg" alt="sarah">
+                </div>
+                <div class="portfolio-description ">
+                    <h6>Project1</h6>
+                    <h4>FindinInflucer.</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, vel?</p>
+                    <a href="#">View Details</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!--==================blog==================-->
+    <section class="blog">
+        <div class="container">
+            <div class="section-heading">
+                <h2>Blog</h2>
+                <h6>View my recent work</h6>
+            </div>
+            <div class="timeline">
+                <ul>
+                    <li class="date" data-dete="2020">
+                       <h4>Columbia Engineering</h4>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dignissimos sequi vel maiores numquam quibusdam ex, sunt voluptates ipsum nihil?</p>
+                    </li>
+                    <li class="date" data-dete="2020">
+                        <h4>Columbia Engineering</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dignissimos sequi vel maiores numquam quibusdam ex, sunt voluptates ipsum nihil?</p>
+                     </li>
+                </ul>
+            </div>
+        </div>
+    </section>
 </body>
 
+<!--==================footer==================-->
+<footer>
+    <!--contact-->
+    <div class="social-media-container">
+        <!--social-media links-->
+    </div>
+    <section class="contact">
+        <div class="container">
+            <div class="section-heading">
+                <h2>Contact</h2>
+                <h6>Let's connect</h6>
+            </div>
+            
+            </div>
+            <!--form-->
+            <form action="contact">
+                <label for="name">Name:</label>
+                <input type="name" id="name" name="name" placeholder="Enter your name...">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email...">
+                <label for="subject">Feedback!</label>
+                <textarea name="feedback" id="feedback" cols="50" rows="2"></textarea>
+                <input type="submit" value="submit">
+            </form>
+        </div>
+    </section>  
+    <div class="copywright">
+        <div class="up">
+            <i class="fa fa-chevron"></i>
+            <p class="">&copy;SarahMyriamBamba 2020</p>
+        </div>
+    </div>      
+    
+</footer>
 </html>
