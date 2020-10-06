@@ -52,13 +52,15 @@ header {
     margin-bottom: 5rem;
 }
 
-.section-heading h2 {
+ .section-heading h2 {
     font-size: 3.5rem;
-    color: #fbe2e5;
     text-transform: uppercase;
     font-weight: 300;
     position: relative;
+    margin-top: 4rem;
     margin-bottom: 1rem;
+    color: #b3b3b3;
+    
 }
 
 .section-heading h2::before,
@@ -68,7 +70,7 @@ header {
     bottom: -.5rem;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #ffffff;
+    background-color:#fbe2e5;
 }
 
 .section-heading h2::before {
@@ -79,11 +81,15 @@ header {
 
 .section-heading h2::after {
     width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 100%;
+    bottom: -1.1rem;
 }
 
 .section-heading h6 {
     font-size: 1.5rem;
     font-weight: 300;
+    color:#b3b3b3;
 }
 
 .has-margin-right {
@@ -257,7 +263,7 @@ h1 {
     text-transform: uppercase;
     text-align: center;
     font-size: 4rem;
-    opacity: .1;
+    color: #b3b3b3;
     
 }
 .skills h6{
@@ -372,7 +378,7 @@ h1 {
     font-size: 1.5rem;
     font-weight: 300;
     text-transform: uppercase;
-    opacity: .3;
+    color: #b3b3b3;
 }
 
 .cta {
@@ -421,6 +427,7 @@ h1 {
 /*Contact*/
 .contact {
     background-color: #efefef;
+   
 }
 
 form {
