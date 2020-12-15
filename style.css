@@ -15,6 +15,8 @@ body {
     height: 100%;
     background-color: #f2f2f2;
     background-size: cover;
+    background-image: url(./images/butterflies.jpg);
+    
 }
 
 a {
@@ -31,6 +33,7 @@ img {
     width: 300px;
     height: 300px;
     border-radius: 100%;
+    opacity: .7;
 }
 
 /*heading*/
@@ -40,8 +43,7 @@ header {
 }
 .nav{
     width: 100%;
-    height: 100vh;
-    position: fixed;
+    height: 50vh;
 }
 
 .container {
@@ -65,7 +67,7 @@ header {
     position: relative;
     margin-top: 4rem;
     margin-bottom: 1rem;
-    color: #b3b3b3;
+    color: #a6a6a6;
 
 }
 
@@ -169,12 +171,12 @@ li {
 }
 
 .landing-text h1 {
-    font-size: 5rem;
+    font-size: 10rem;
     font-family: 'Mada'sans-serif;
     background:linear-gradient(to top, #a9a9a9, #ffcce6);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    padding: 1 rem;
+    padding:1rem;
     user-select: none;
 }
 
@@ -211,10 +213,11 @@ h1 {
 
 .about-heading h1 {
     font-size: 10rem;
-    opacity: .1;
+    opacity:.6;
+    color: #a6a6a6;
 }
 .about-heading h6{
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 300;
 }
 
@@ -257,14 +260,14 @@ section h6{
     background:linear-gradient(to top, #a9a9a9, #ffcce6);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    padding: 1 rem;
+    padding: 1rem;
     user-select: none;
 }
 .skills h2{
     text-transform: uppercase;
     text-align: center;
     font-size: 4rem;
-    color: #b3b3b3;
+    color: #a6a6a6;
 }
 .skills h6{
     text-align: center;
@@ -408,7 +411,7 @@ section h6{
 
 .timeline ul {
     border-left: 4px solid  #f6bcc2;
-    background:linear-gradient(to top, #a9a9a9, #ffcce6, #a9a9a9);
+    background:linear-gradient(to top, #a9a9a9, #ffcce6, );
     border-radius: .8rem;
     background-color: rgba(0, 0, 0, 0.1);
     margin: 0 auto;
@@ -434,53 +437,39 @@ section h6{
 }
 
 /*Contact*/
-.contact {
-    background-color: #efefef;
-
+#contact .contact{
+    flex-direction: column;
+    max-width: 1200px;
+    
+    text-align: center;
+}
+#contact .contact-items{
+    width:100%;
+    
+}
+#contact .contact-item{
+    width: 80%;
+    padding: 10;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 30px;
+    
+    display: flex;
+    align-item: center;
+    box-shadow: 0px 0px 18px 0 #0000002c;
+    transition: .3s
 }
 
-form {
-    width: 70%;
-    margin: 0 auto;
-}
-
-form label {
-    font-size: 1.5rem
-}
-
-input {
-    width: 100%;
-    padding: 1rem;
-    margin-bottom: 5px;
-    border: none;
-    outline-color: #ffcce6;
-}
-
-select {
-    width: 100%;
-    padding: 1rem;
-    margin-bottom: 5px;
-    border: none;
-    outline-color: #ffcce6;
-}
-
-textarea {
-    width: 100%;
-    padding: 1rem;
-    margin-bottom: 5px;
-    border: none;
-    outline-color: #ffcce6;
-}
-
-.submit {
-    width: initial;
-    background-color: #fbe2e5;
-    background:linear-gradient(to top,#ffcce6 ,#a9a9a9,);
-    color: rgba(0, 0, 0, 0.2);
-    padding: 1rem;
-    border-radius: .8rem;
-    cursor: pointer;
-    transition: background-color 650ms;
+.contact-item h6{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin: 1rem 0;
+    background:linear-gradient(to top, #a9a9a9, #ffcce6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 1 rem;
+    user-select: none;
 }
 
 /*footer styling*/
